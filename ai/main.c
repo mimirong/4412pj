@@ -92,26 +92,26 @@ void LCD(void)
 	LCD_Clear(Black);	//LCD_DrawPicture(0,0, "/pic/2.bmp");
 	sleep(5);
 	LCD_PutString(0,1,   "                _._",						White,Black);
-	LCD_PutString(0,28,  "           _.-``__ ''-._",				White,Black);
-	LCD_PutString(0,56,  "      _.-``    `.  `_.  ''-._           ",White,Black);
-	LCD_PutString(0,84,  "  .-`` .-```.  ```\/    _.,_ ''-._",		White,Black);
-	LCD_PutString(0,112, "  (    '      ,       .-`  | `,   )    ",White,Black);
-	LCD_PutString(0,140, " |`-._`-...-` __...-.``-._|'` _.-'|    ",White,Black);
-	LCD_PutString(0,168, " |    `-._   `._    /     _.-'    |     ",White,Black);
-	LCD_PutString(0,196, " |    `-._   `._    /     _.-'    |     ",White,Black);
-	LCD_PutString(0,224, "  `-._    `-._  `-./  _.-'    _.-'", 	   White,Black);
-	LCD_PutString(0,252, " |`-._`-._    `-.__.-'    _.-'_.-'|",	   White,Black);
-	LCD_PutString(0,280, " |    `-._`-._        _.-'_.-'    |           ",White,Black);
-	LCD_PutString(0,308, " |    `-._`-._        _.-'_.-'    |           ",White,Black);
-	LCD_PutString(0,336, " |    `-._`-._        _.-'_.-'    |           ",White,Black);
-	LCD_PutString(0,364, "  `-._    `-._`-.__.-'_.-'    _.-'",			White,Black);
-	LCD_PutString(0,392, " |`-._`-._    `-.__.-'    _.-'_.-'|",			White,Black);
-	LCD_PutString(0,420, " |    `-._`-._        _.-'_.-'    |",White,Black);
-	LCD_PutString(0,448, "  `-._    `-._`-.__.-'_.-'    _.-'",White,Black);
-	LCD_PutString(0,476, "  `-._    `-._`-.__.-'_.-'    _.-'",White,Black);
-	LCD_PutString(0,504, "      `-._    `-.__.-'    _.-'",White,Black);
-	LCD_PutString(0,532, "          `-._        _.-'",White,Black);
-	LCD_PutString(0,560, "              `-.__.-'  ",White,Black);
+	LCD_PutString(0,15,  "           _.-``__ ''-._",				White,Black);
+	LCD_PutString(0,30,  "      _.-``    `.  `_.  ''-._           ",White,Black);
+	LCD_PutString(0,45,  "  .-`` .-```.  ```\/    _.,_ ''-._",		White,Black);
+	LCD_PutString(0,60,  " (    '      ,       .-`  | `,    )    ",White,Black);
+	LCD_PutString(0,75,  " |`-._`-...-` __...-.``-._|'` _.-'|    ",White,Black);
+	LCD_PutString(0,90,  " |    `-._   `._    /     _.-'    |     ",White,Black);
+	LCD_PutString(0,105, " |    `-._   `._    /     _.-'    |     ",White,Black);
+	LCD_PutString(0,120, "  `-._    `-._  `-./  _.-'    _.-'", 	   White,Black);
+	LCD_PutString(0,135, " |`-._`-._    `-.__.-'    _.-'_.-'|",	   White,Black);
+	LCD_PutString(0,150, " |    `-._`-._        _.-'_.-'    |           ",White,Black);
+	LCD_PutString(0,165, " |    `-._`-._        _.-'_.-'    |           ",White,Black);
+	LCD_PutString(0,180, " |    `-._`-._        _.-'_.-'    |           ",White,Black);
+	LCD_PutString(0,195, "  `-._    `-._`-.__.-'_.-'    _.-'",			White,Black);
+	LCD_PutString(0,210, " |`-._`-._    `-.__.-'    _.-'_.-'|",			White,Black);
+	LCD_PutString(0,225, " |    `-._`-._        _.-'_.-'    |",White,Black);
+	LCD_PutString(0,240, "  `-._    `-._`-.__.-'_.-'    _.-'",White,Black);
+	LCD_PutString(0,255, "  `-._    `-._`-.__.-'_.-'    _.-'",White,Black);
+	LCD_PutString(0,270, "      `-._    `-.__.-'    _.-'",White,Black);
+	LCD_PutString(0,285, "          `-._        _.-'",White,Black);
+	LCD_PutString(0,300, "              `-.__.-'  ",White,Black);
 
 
 
